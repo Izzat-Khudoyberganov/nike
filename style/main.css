@@ -1,6 +1,15 @@
 @import url(./font.css);
 
 
+:root {
+    --RR: 'Roboto-Regular';
+    --RB: 'Roboto-Bold';
+    --light: #fff;
+    --gold: #D57300;
+    --dark: #322E41;
+    --violet: #544294;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,3 +17,7 @@
     text-decoration: none;
 }
 
+h2 {
+    font-family: var(--RB);
+    color: var(--violet);
+}
