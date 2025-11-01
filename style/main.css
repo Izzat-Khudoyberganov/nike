@@ -18,7 +18,8 @@
 }
 
 
-/* header started */
+/**************************************************** header started *******************************************/
+
 .page__header {
     background-color: var(--dark);
 }
@@ -55,3 +56,39 @@
     background-color: var(--light);
     color: var(--gold);
 }
+
+/************************************ header section finished *****************************************/
+
+
+/*********************************** banner section started *******************************************/
+
+.banner {
+    background-image: url(../image/banner-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    color: var(--light);
+}
+
+.banner__title {
+    font-family: var(--RB);
+    font-size: 50px;
+    line-height: 59px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.banner__text {
+    color: var(--light);
+    font-family: var(--RB);
+    font-size: 18px;
+    line-height: 21px;
+}
+
+/*************************************** banner section finished ************************************/
